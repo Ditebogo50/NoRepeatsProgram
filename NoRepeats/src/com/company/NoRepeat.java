@@ -11,11 +11,14 @@ public class NoRepeat {
         String testString = "And I think to myself: what a wonderful world!";
 
         //Call the method and save in variable
-        String result = removeRepeats(input);
+        String result = removeRepeats(testString);
 
         //Print out the results
-        System.out.println(input);
-        System.out.println(result.toString());
+        //Print out the original string
+        System.out.println("Original string: " + testString);
+
+        //Print out string without repeats
+        System.out.println("String without repeats: " + result.toString());
     }
 
     public static String removeRepeats(String originalString) {
