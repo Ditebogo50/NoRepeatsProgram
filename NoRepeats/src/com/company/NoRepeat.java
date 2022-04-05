@@ -7,7 +7,8 @@ public class NoRepeat {
 
     public static void main(String[] args) {
         //String to test the method
-        String input = "And I think to myself: what a wonderful world!";
+        //renamed the string variable to testString from input
+        String testString = "And I think to myself: what a wonderful world!";
 
         //Call the method and save in variable
         String result = removeRepeats(input);
